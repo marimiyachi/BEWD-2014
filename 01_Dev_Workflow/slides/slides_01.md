@@ -2,9 +2,10 @@
 
 #BEWD - Working Like A Developer
 
-###Instructor Name
+###Mari Miyachi
 
-Instructors current role.
+Kai Hofius, Kevin Teng
+
 
 ---
 
@@ -12,7 +13,8 @@ Instructors current role.
 ##Agenda
 
 *	Intros
-*	What is Web Development?
+*	Course Roadmap
+* 	What is backend web development?
 *	Bash Commands
 *	Using GitHub
 
@@ -21,14 +23,13 @@ Instructors current role.
 
 ##Introductions
 
-Your course producer can help you with this.
+A little bit about us...and you!
 
 ---
 
-##Course Administration
-###Lets Get This Out Of The Way
+##Course Roadmap
 
-During this course we will learn (at a high level):
+###During this course we will learn (at a high level):
 
 * Command Line / Terminal
 * Git and GitHub
@@ -37,9 +38,15 @@ During this course we will learn (at a high level):
 * (Basic) Database Modeling
 
 
-To pass the course you will need to:
+###To pass the course you will need to:
+
 * Complete at least 80% of all assigned homework
 * Complete a final project
+
+---
+
+##Coure Roadmap
+###Some cool things you'll be able to do
 
 ---
 
@@ -50,6 +57,8 @@ To pass the course you will need to:
 	* 	Homework
 	* 	Slides / student handouts available in GitHub
 	* 	Instructor & TAs!
+		* Mari: mmiyachi@alum.mit.edu
+		* Office Hours TBD
 
 ---
 
@@ -65,7 +74,6 @@ To pass the course you will need to:
 
 Let's define a few terms:
 
-* _Web Development_ -> apps built for the web
 * _Front-End Development_ -> client / browser code (HTML, CSS, JS)
 * _Back-End Development_ -> server-side code (Ruby, C#.NET)
 
@@ -74,20 +82,12 @@ Let's define a few terms:
 ##Work Like a Developer
 ###Integrate into the developer community
 
-* Choose the right OS, editors, & tools for your projects.
-* Leverage the online community's vast libraries and documentation.
-* Spread the knowledge you gain, and give back to the community when you can.
-* Take pride & and joy in what you work on.
-* Be efficient:
-  * Use the keyboard as much as possible
-  * If you find yourself doing the same thing repeatedly, automate it
-
 ---
 
 ##The Command Line
 ###What is it?
 
-The command line is a terminal giving you direct access to your operating system. You can enter simple commands to perform a variety of functions.
+The command line is a terminal giving you direct access to your operating system. You can enter simple commands to perform a variety of functions. Strip away the GUI and this is what you get!
 
 Many of the tasks we need to carry out (such as committing our code) are best performed in the command line.
 
@@ -126,11 +126,34 @@ For Windows:
 ![GeneralAssemb.ly](../../assets/ICL_icons/Code_along_icon_md.png)
 ##Command Line Basics
 
+	mkdir [directory name]
+	cd [directory name]
+	ls
+	touch [filename]
+	[editor] [filename]
+	rmdir [directory name]
+	rm [filename]
+
 ---
 
 
 ![GeneralAssemb.ly](../../assets/ICL_icons/Exercise_icon_md.png)
 ##Command Line Basics Exercise
+
+---
+
+## Bash Basics Exercise
+
+
+###Time: 20 min
+
+#### Instructions 
+
+1. Create a directory named My_First_BEWD_Class. 
+2. Change into this directory (hint tab completion).
+3. Create a file named "goals.rb" using the touch command.
+4. Open "goals.rb" in Sublime Text from the terminal.
+5. Using ruby comments type #Your Name and Goals for this course
 
 ---
 
@@ -167,6 +190,14 @@ For Windows:
 ![GeneralAssemb.ly](../../assets/ICL_icons/Code_along_icon_md.png)
 ##Git Basics
 
+	git init
+	git status
+	git add [filename]
+	git commit -m "[message]"
+	git log
+	git diff [filename]
+	git push [remote name] [local name]
+
 ---
 
 
@@ -187,16 +218,39 @@ For Windows:
 
 ---
 
+##GitHub
+###Next Steps
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YdYBjVTMUQY0/0.jpg)](http://www.youtube.com/watch?v=dYBjVTMUQY0)
+
+
+---
 
 
 ![GeneralAssemb.ly](../../assets/ICL_icons/Code_along_icon_md.png)
 ##Git In Class
+
+	git clone [path]
+	git remote add upstream [path]
+	git pull upstream
 
 ---
 
 
 ![GeneralAssemb.ly](../../assets/ICL_icons/Exercise_icon_md.png)
 ## Git It Together
+
+---
+
+## Git It Together
+###Time: 15 min
+
+#### Instructions
+
+-	Add a .txt file named blog and type your name and the URL to your blog
+-	Commit your changes
+-	Push them to your repository
+-	Submit a pull request for your instructor to access those changes
 
 ---
 
